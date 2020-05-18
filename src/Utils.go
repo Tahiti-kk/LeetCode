@@ -11,3 +11,12 @@ func max(x int, y int) int {
     }
     return y
 }
+
+/**
+ * 交换数组中的两个元素
+ */
+ func swap(nums []int, x int, y int) {
+	temp := nums[x]
+	nums[x] = nums[y]
+	nums[y] = temp
+}
